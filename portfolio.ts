@@ -325,7 +325,7 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Daniel Alexander',
+  title: 'Portfolio - Daniel Alexander',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Daniel Alexander',
@@ -336,6 +336,9 @@ export const seoData: SEODataType = {
     'Daniel Alexander',
     'Valuemark',
     'Portfolio',
+    'Top',
+    'Super',
+    'Smart',
     'Full Stack',
     'Full-Stack',
     'Full Stack Developer',
