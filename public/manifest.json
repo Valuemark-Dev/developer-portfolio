@@ -1,16 +1,14 @@
 {
   "short_name": "Portfolio",
-  "name": "Hanzla's Portfolio",
+  "name": "Daniel's Portfolio",
   "description": "A passionate Full Stack Web Developer and Mobile App Developer.",
   "icons": [
     {
-      "src": "./favicon.png",
-      "type": "image/png",
+      "src": "./favicon.ico",
       "sizes": "192x192"
     },
     {
-      "src": "./favicon.png",
-      "type": "image/png",
+      "src": "./favicon.ico",
       "sizes": "512x512"
     }
   ],

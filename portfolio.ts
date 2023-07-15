@@ -39,7 +39,7 @@ export const contact = {
 };
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://topsupersmark.com/',
+  url: 'https://topsupersmart.com/',
   github: 'https://github.com/Valuemark',
   instagram: 'https://www.instagram.com',
   facebook: 'https://www.facebook.com',

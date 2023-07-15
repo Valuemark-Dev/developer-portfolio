@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import Head from 'next/head';
 import { seoData } from '../portfolio';
 
 function SEO() {
+
   return (
     <Head>
       <title>{seoData.title}</title>
@@ -30,6 +31,7 @@ function SEO() {
       <link rel="apple-touch-icon" sizes="120x120" href="./favicon.ico" />
       <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
       <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico" />
+      <script src="https://tawk.to/chat/64b2f48b94cf5d49dc63ce95/1h5dgmh14" async />
     </Head>
   );
 }
