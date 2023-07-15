@@ -36,10 +36,11 @@ export default function Home({
       <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
-      {/* <Script
-        strategy="lazyOnload"
-        src="https://embed.tawk.to/64b2f48b94cf5d49dc63ce95"
-      /> */}
+      <Script
+        async
+        src="https://tawk.to/chat/64b2f48b94cf5d49dc63ce95/1h5dgmh14"
+        crossOrigin='anonymous'
+      />
     </div>
   );
 }

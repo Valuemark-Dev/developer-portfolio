@@ -31,7 +31,7 @@ function SEO() {
       <link rel="apple-touch-icon" sizes="120x120" href="./favicon.ico" />
       <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
       <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico" />
-      <script async src="https://embed.tawk.to/64b2f48b94cf5d49dc63ce95" crossOrigin="*"/>
+      
     </Head>
   );
 }
