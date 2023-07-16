@@ -29,7 +29,7 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: 'Valuemark',
+  githubUserName: 'FullstackWEB-developer',
 };
 
 export const contact = {
@@ -40,7 +40,7 @@ export const contact = {
 
 export const socialLinks: SocialLinksType = {
   url: 'https://topsupersmart.com/',
-  github: 'https://github.com/Valuemark',
+  github: 'https://github.com/FullstackWEB-developer',
   instagram: 'https://www.instagram.com',
   facebook: 'https://www.facebook.com',
   twitter: 'https://twitter.com',
