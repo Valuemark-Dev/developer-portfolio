@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Col, Row, Container } from 'reactstrap';
 import { GithubUserType } from '../types';
 import SocialLinks from './SocialLinks';
@@ -20,7 +20,6 @@ const GithubProfileCard = () => {
                   />
                 )
               }
-              
             </Col>
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>

@@ -4,6 +4,7 @@ import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 import Typewriter from "typewriter-effect";
+import pph from '../components/pph';
 
 const Greetings = () => {
   useEffect(() => {
@@ -11,6 +12,12 @@ const Greetings = () => {
     document.scrollingElement!.scrollTop = 0;
   });
 
+  useEffect(()=>{
+    if(typeof window === 'object'){
+      pph();
+    }
+  },[]);
+  
   return (
     <main>
       <div className="position-relative">
@@ -68,6 +75,7 @@ const Greetings = () => {
                   <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>
+              <div id="pph-hireme"></div>
             </div>
           </Container>
           {/* SVG separator */}
