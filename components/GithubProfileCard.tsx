@@ -15,7 +15,6 @@ const GithubProfileCard = () => {
                 contact.image && (
                   <img
                     src={contact.image}
-                    style={{ width: '200px' }}
                     alt=""
                     className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
                   />
